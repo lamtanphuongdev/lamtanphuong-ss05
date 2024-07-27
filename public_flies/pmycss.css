@@ -1,0 +1,81 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+
+#lvOne{
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+
+#lvTwo{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.imgmenu{
+    height: 25px;
+    width: auto;
+    margin-top: 10px;
+}
+.itemsmenu{
+    height: 100%;
+    margin-right: 1px;
+    border-right-style: outset;
+    border-right-width: 0.1px;
+    float: left;
+}
+
+.imgmenu:hover{
+    height: 32px;
+}
+.itemsmenu:hover{
+   background-color:yellow;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.imgHanghoa{
+    height: auto;
+    width: 170px;
+}
+
+.imgHanghoa:hover{
+    height: auto;
+    width: 180px;
+}
+
+.itemsHanghoa{
+    min-height: 300px;
+    width: 180px;
+    border: outset;
+    border-width: 0.1px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    padding: auto auto;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.itemsHanghoa:hover{
+    cursor: pointer;
+}
+
+.itemsViewHangHoa{
+    min-height: 500px;
+    width: 70%;
+    border: outset;
+    border-width: 0.1px;
+    margin: 5px auto;
+    background-color: white;
+    padding: auto auto;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.imgViewHanghoa{
+    height: auto;
+    width: 450px;
+}
